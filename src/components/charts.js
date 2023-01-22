@@ -4,7 +4,7 @@ import Chart from "react-apexcharts";
 
 export const options = {
     series: [{
-    name: 'north',
+    name: 'increased',
     data: [{
         x: 1996,
         y: 322
@@ -87,7 +87,7 @@ export const options = {
       }
     ]
   }, {
-    name: 'south',
+    name: 'decreased',
     data: [
       {
         x: 1996,
@@ -237,14 +237,14 @@ export const options = {
     padding: {
       left: 20
     }
-  }, colors: ["#ff0000", "#43a047"]
+  }, colors: ["#43a047", "#ff0000"]
   };
 
 
   export const baroptions={
     series: [{
         name: 'Net Profit',
-        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+         data: [44, 30, 54, 76, 51, 68, 43, 60, 66]
       }],
       
         chart: {

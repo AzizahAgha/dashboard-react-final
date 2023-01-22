@@ -177,7 +177,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .bottom{
  
   align-items: center;
-  margin-top: 11rem;
+  margin-top: 9rem;
   position: fixed;
   
 }
@@ -468,7 +468,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .head2{
-  color: orangered;
+  color: rgb(255, 101, 45);
   font-size: 15px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;

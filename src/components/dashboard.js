@@ -32,6 +32,10 @@ import img4 from './images/snail.png'
 import img5 from './images/jaq.jfif'
 import img6 from './images/matt.jfif'
 import img7 from './images/alex.jfif'
+import img8 from './images/matheww.jfif'
+import img9 from './images/Carla.jfif'
+import img10 from './images/sam.webp'
+
 import {SideBar} from "./sidebar";
 import ApexChart from "./apexchart";
 import { options } from "./charts";
@@ -296,7 +300,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <Grid item xs={12} md={6} lg={6}>
                <div className="headdiv">
                <h4 className="head">Revenue</h4>
-               <Link className="head2">view</Link>
+               <Link className="head2">View Full Report</Link>
                </div>
                <Item>
                <Chart
@@ -315,7 +319,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <Grid item  xs={12} md={6} lg={6}>
                <div className="headdiv">
                <h4 className="head">Donations</h4>
-               <Link className="head2">view</Link>
+               <Link className="head2">View Full Report</Link>
                </div>
                
                <Item>
@@ -412,71 +416,62 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <Item >
                <div className="cardd">
                <div className="headdiv">
-               <div className="values">$467</div>
-               <div className="inf"><InfoOutlinedIcon/></div>
+               <div className="values">$4992.75</div>
+               <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
                <hr></hr>
                <div className="headdivv">
-               <img class="image2" src={img1} alt="emp" width="" />
+               <img class="image1" src={img8} alt="emp" width="" />
                {/* <em>Employess</em> */}
                <div className="menuuu">
-                  <Link className="topic">Employees</Link>
-                  <h4 className="values">$186</h4>
-                  </div>
-                  </div>
-               </Item>
-               </Grid>
-
-               
-               <Grid item xs={12} sm={12} md={4} lg={4}>
-               <div className="headdiv">
-               <h4 className="head"></h4>
-               <Link className="head2"></Link>
-               </div>
-               <Item >
-               <div className="cardd">
-               <div className="headdiv">
-               <div className="values">$27</div>
-               <div className="inf"><InfoOutlinedIcon/></div>
-               </div>
-               </div>
-               <hr></hr>
-               <div className="headdivv">
-               <img class="image2" src={img1} alt="emp" width="" />
-               {/* <em>Employess</em> */}
-               <div className="menuuu">
-                  <Link className="topic">Employees</Link>
-                  <h4 className="valuess">$186</h4>
+                  <Link className="topicc">Mathew James</Link>
+                  <h4 className="valuess">27 Dec 20</h4>
                   </div>
                   </div>
                </Item>
                </Grid>
 
                <Grid item xs={12} sm={12} md={4} lg={4}>
-               <div className="headdiv">
-               <h4 className="head"></h4>
-               <Link className="head2"></Link>
-               </div>
                <Item >
                <div className="cardd">
                <div className="headdiv">
-               <div className="values">$954</div>
-               <div className="inf"><InfoOutlinedIcon/></div>
+               <div className="values">$953.90</div>
+               <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
                <hr></hr>
                <div className="headdivv">
-               <img class="image2" src={img1} alt="emp" width="" />
+               <img class="image1" src={img9} alt="emp" width="" />
                {/* <em>Employess</em> */}
                <div className="menuuu">
-                  <Link className="topic">Employees</Link>
-                  <h4 className="values">$186</h4>
+                  <Link className="topicc">Carla Vanson</Link>
+                  <h4 className="valuess">27 dec 21</h4>
                   </div>
                   </div>
                </Item>
                </Grid>
- 
+
+               <Grid item xs={12} sm={12} md={4} lg={4}>
+               <Item >
+               <div className="cardd">
+               <div className="headdiv">
+               <div className="values">$820.90</div>
+               <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
+               </div>
+               </div>
+               <hr></hr>
+               <div className="headdivv">
+               <img class="image1" src={img10} alt="emp" width="" />
+               {/* <em>Employess</em> */}
+               <div className="menuuu">
+                  <Link className="topicc">Samuel Will</Link>
+                  <h4 className="valuess">28 Dec 21</h4>
+                  </div>
+                  </div>
+               </Item>
+               </Grid>
+
 
             </Grid>
             </Container>

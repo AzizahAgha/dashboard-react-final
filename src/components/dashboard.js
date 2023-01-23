@@ -341,8 +341,8 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
             <div className="mid">
 
                <div className="headdiv">
-               <h4 className="head">Top </h4>
-               <Link className="head2">view</Link>
+               <h4 className="head">Top Fundraiser</h4>
+               <Link className="head2">View All</Link>
                </div>
              </div>
 

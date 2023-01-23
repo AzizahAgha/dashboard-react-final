@@ -358,7 +358,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img5} alt="emp" width="" />
                {/* <em>Employess</em> */}
@@ -378,7 +378,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img6} alt="emp" width="" />
                {/* <em>Employess</em> */}
@@ -398,7 +398,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img7} alt="emp" width="" />
                {/* <em>Employess</em> */}
@@ -420,7 +420,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img8} alt="emp" width="" />
                {/* <em>Employess</em> */}
@@ -440,7 +440,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img9} alt="emp" width="" />
                {/* <em>Employess</em> */}
@@ -460,7 +460,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
                <div className="inf"><InfoOutlinedIcon className="iconss"/></div>
                </div>
                </div>
-               <hr></hr>
+               <hr className="hrr"></hr>
                <div className="headdivv">
                <img class="image1" src={img10} alt="emp" width="" />
                {/* <em>Employess</em> */}
